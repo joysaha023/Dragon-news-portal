@@ -18,7 +18,7 @@ const Home = () => {
                 <div className='lg:col-span-2 bg-gray-300'>
                     <h2 className='text-4xl'>News comming soon</h2>
                 </div>
-                <div className='bg-gray-300'>
+                <div className=''>
                     <RightSideNav></RightSideNav>
                 </div>
             </div>
