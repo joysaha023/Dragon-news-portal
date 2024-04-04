@@ -7,6 +7,13 @@ const Register = () => {
 
 
 const handleRegister = e => {
+    e.preventDefault();
+    const form = new FormData(e.currentTarget);
+    const name = form.get('name');
+    const photo = form.get('photo')
+    const email = form.get('email')
+    const password = form.get('password')
+    console.log(name, photo, email, password);
 
 }
 
@@ -24,8 +31,8 @@ const handleRegister = e => {
               <span className="label-text">Your Name</span>
             </label>
             <input
-              name="text"
-              type="name"
+              name="name"
+              type="text"
               placeholder="Name"
               className="input input-bordered"
               required
