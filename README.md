@@ -1,7 +1,7 @@
 
 # Dragon-News-Portal
 
-Live Demo: [Click here](https://dragon-news-portal-abcab.web.app/)
+Live link: https://dragon-news-portal-abcab.web.app/
 
 
 
