@@ -3,7 +3,9 @@
 
 Live Demo: [click here](https://dragon-news-portal-abcab.web.app/) 
 
-
+<a href="https://dragon-news-portal-abcab.web.app/">
+  <img src="https://i.ibb.co/0cjgj2m/s1.png" />
+</a>
 
 
 ## Features
