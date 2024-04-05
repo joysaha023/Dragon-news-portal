@@ -1,8 +1,24 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Dragon-News-Portal
 
-Currently, two official plugins are available:
+Live Demo: [Click here](https://dragon-news-portal-abcab.web.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+## Features
+
+ - This app is focused on authenticate and login and locout functionality.
+ - User can read news only heading when user want to read full news it's find identity.
+ - This website user can login with email and password and continue with google and github.
+
+
+## Screenshots
+
+![App Screenshot](https://i.ibb.co/0cjgj2m/s1.png)
+
+
+![App Screenshot](https://i.ibb.co/Y3GtVWy/s5.png)
+
+![App Screenshot](https://i.ibb.co/M93F45Q/s3.png)
+
