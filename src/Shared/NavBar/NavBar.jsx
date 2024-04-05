@@ -59,6 +59,7 @@ const NavBar = () => {
             {Links}
           </ul>
         </div>
+        <h2>{user?.email}</h2>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{Links}</ul>
