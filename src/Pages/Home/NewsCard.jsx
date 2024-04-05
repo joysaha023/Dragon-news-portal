@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NewsCard = ({ news }) => {
-  const { title, rating, total_view, author, thumbnail_url } = news;
+  const { title, rating, total_view, details, author, image_url, _id } = news;
 
   return (
     <div className="card w-full bg-base-100 shadow-none rounded-none border mb-10">
       <figure>
         <img
-        className="w-full md:h-80"
-          src={thumbnail_url}
+        className=""
+          src={image_url}
           alt="Shoes"
         />
       </figure>
@@ -17,7 +18,9 @@ const NewsCard = ({ news }) => {
           {title}
           
         </h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        {
+            details.length > 200 ? <p>{details.slice(0, 200)} <Link to={`/news/${_id}`} className="text-blue-600 font-bold">Read More...</Link></p> : <p>{details}</p>
+        }
         <div className="card-actions justify-end">
           <div className="badge badge-outline">Fashion</div>
           <div className="badge badge-outline">Products</div>
