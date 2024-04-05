@@ -4,6 +4,7 @@ import Root from "../Layouts/Root/Root";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import NewsDetails from "../Pages/NewsDetails/NewsDetails";
+import PrivateRoutes from "./PrivateRoutes";
 
 
 
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
         },
         {
           path: "/news/:id",
-          element: <NewsDetails></NewsDetails>
+          element: <PrivateRoutes><NewsDetails></NewsDetails></PrivateRoutes>
         }
       ]
     },
